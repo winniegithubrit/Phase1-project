@@ -1,0 +1,115 @@
+*{
+  background-color: black;
+   
+   
+}
+img{
+  height: 400px;
+  width: 600px;
+}
+
+.song-list {
+  
+  border-radius: 5px;
+  padding: 10px;
+  
+
+}
+
+#songs {
+  list-style: none;
+  padding: 2px;
+  margin: 1px;
+  font-size: small;
+}
+
+#songs li {
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(173, 10, 64);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  color: blanchedalmond;
+}
+
+#songs li:hover {
+  background-color: yellowgreen;
+}
+.song-list{
+  float: left;
+  width: 50%;
+  
+}
+.music-info-and-image-container{
+  float: right;
+  width: 48.5%;
+  margin-top: -500px; 
+  color: antiquewhite;
+  border: dotted;
+  
+  
+}
+
+h1{
+  text-align: center;
+  color: black;
+  background-color: rgb(155, 45, 63);
+  font-size: 70px;
+  margin-top: -25px;
+}
+#search-bar{
+  margin-top: -35px; 
+}
+#add-song-container{
+  color: rgb(192, 39, 64);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: -250px;
+  
+
+  
+ 
+}
+#btn3{
+  color: azure;
+}
+#btn{
+  color: azure;
+}
+#btn2{
+  color: azure;
+}
+#search{
+  color: whitesmoke;
+  font-size: large;
+}
+button {
+  background-color: rgb(211, 52, 66);
+  border-radius: 50px;
+  font-size: x-large;
+  
+}
+ #artist,#title,#description, #rating, #Image-URL ,#AUDIO-URL{
+  color: whitesmoke;
+ }
+ #searching{
+  color: azure;
+  font-size: xx-large;
+ }
+ h2{
+  font-weight: bolder;
+  color: rgb(216, 70, 94);
+ }
+ #btn4{
+  color: yellowgreen;
+ }
+ #delete-song-container{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: -130px;
+ }
+
+

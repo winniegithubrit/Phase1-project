@@ -1,0 +1,121 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "artist": "Olivia Rodrigo",
+      "title": "good 4 u",
+      "description": "The latest hit single from Olivia Rodrigo's debut album 'Sour'. This song showcases her angsty and pop-punk influences, with an infectious chorus that will have you singing along in no time.",
+      "rating": 4.5,
+      "image": "https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a",
+      "audio": "https://d287.d2mefast.net/tb/e/a1/good_4_u_mp3_48690.mp3"
+    },
+    {
+      "id": 2,
+      "artist": "The Weeknd & Ariana Grande",
+      "title": "Save Your Tears (Remix)",
+      "description": "The Weeknd and Ariana Grande team up for the remix of 'Save Your Tears', a nostalgic and upbeat 80s pop-inspired track.",
+      "rating": 4.6,
+      "image": "https://hypeddit-gates-prod.s3.amazonaws.com/y6fjmh_coverartmanual",
+      "audio": "https://d287.d2mefast.net/tb/c/7b/the_weeknd_save_your_tears_official_music_video_mp3_49455.mp3"
+    },
+    {
+      "id": 3,
+      "artist": "Billie Eilish",
+      "title": "Lost Cause",
+      "description": "Billie Eilish's latest single 'Lost Cause' is a laid-back, catchy pop tune with a relatable message about moving on from a bad relationship.",
+      "rating": 4.3,
+      "image": "https://i.ytimg.com/vi/vuhYSH36aSM/maxresdefault.jpg",
+      "audio": "https://d285.d2mefast.net/tb/b/26/billie_eilish_lost_cause_official_music_video_mp3_49498.mp3"
+    },
+    {
+      "id": 4,
+      "artist": "Lil Nas X",
+      "title": "Montero (Call Me By Your Name)",
+      "description": "Lil Nas X's latest single 'Montero (Call Me By Your Name)' is a catchy and bold pop-rap track that embraces his sexuality and identity.",
+      "rating": 4.7,
+      "image": "https://img.huffingtonpost.com/asset/605dc3e1240000810a25fe0b.png?ops=scalefit_630_noupscale",
+      "audio": "https://d292.d2mefast.net/tb/d/95/lil_nas_x_montero_call_me_by_your_name_lyrics_mp3_49525.mp3"
+    },
+    {
+      "id": 5,
+      "artist": "BTS",
+      "title": "Butter",
+      "description": "K-pop sensations BTS return with their latest single 'Butter', a slick and catchy dance-pop tune with a smooth and funky bassline.",
+      "rating": 4.9,
+      "image": "https://static.independent.co.uk/2021/05/21/11/APTOPIX_South_Korea_BTS_Butter_20997.jpg",
+      "audio": "https://d278.d2mefast.net/tb/f/b3/tubidy_mp3_50167.mp3"
+    },
+    {
+      "id": 6,
+      "artist": "Adele",
+      "title": "Rolling in the Deep",
+      "description": "A soul and blues-inspired pop song about a failed relationship",
+      "rating": 4.9,
+      "image": "https://www.konusarakogren.com/blog/wp-content/uploads/2018/05/Rolling-in-the-deep.jpg",
+      "audio": "https://d290.d2mefast.net/tb/6/dd/adele_rolling_in_the_deep_mp3_49682.mp3"
+    },
+    {
+      "id": 7,
+      "artist": "Post Malone",
+      "title": "Circles",
+      "description": "An alternative pop and rock song about a toxic relationship",
+      "rating": 4.7,
+      "image": "https://hollywoodlife.com/wp-content/uploads/2019/08/post-malone-circles-vertical.jpg",
+      "audio": "https://d278.d2mefast.net/tb/7/25/post_malone_circles_mp3_49712.mp3"
+    },
+    {
+      "id": 8,
+      "artist": "Lizzo",
+      "title": "Good as Hell",
+      "description": "A pop and R&B song about self-love and empowerment",
+      "rating": 4.6,
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Lizzo_-_Good_as_Hell.png",
+      "audio": "https://d288.d2mefast.net/tb/6/b1/lizzo_good_as_hell_official_music_video_mp3_49787.mp3"
+    },
+    {
+      "id": 9,
+      "artist": "Silk Sonic (Bruno Mars & Anderson .Paak)",
+      "title": "Smoking out of the window",
+      "description": "A soul and R&B ballad about seduction and romance",
+      "rating": 4.9,
+      "image": "https://cloudimages.broadwayworld.com/columnpiccloud/1250-f0ce84cd8a10812a34745f103ce45b5c.jpg",
+      "audio": "https://d284.d2mefast.net/tb/6/3e/smoking_out_the_window_x_write_this_down_mp3_49815.mp3"
+    },
+    {
+      "id": 10,
+      "artist": "Dave",
+      "title": "Clash (feat. Stormzy)",
+      "description": "A rap song about the ups and downs of success",
+      "rating": 4.7,
+      "image": "https://i1.sndcdn.com/artworks-y27vAUa9ILJzF5X4-dqK4RA-t500x500.jpg",
+      "audio": "https://d96.d2mefast.net/tb/9/4a/dave_clash_ft._stormzy_mp3_50495.mp3"
+    },
+    {
+      "id": 11,
+      "artist": "Little Mix",
+      "title": "Confetti (feat. Saweetie)",
+      "description": "A dance-pop song about having fun and feeling confident",
+      "rating": 4.6,
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/Little_Mix_-_Confetti_ft._Saweetie.png",
+      "audio": "https://cox.oxec.cx/api/v1/download?sig=NdzeNL8u95upr6vJRKbtn4HtIaQQfU8HAMSEv%2FcHOuRkHI60fOBSWF3JE5LQpqGV%2FB0gzLn4MKpmvFz84dtJdQYgX1MXwQ52UgN0lug8taMcbC2dUK%2FfZH0PPGebXUk%2BhQ8lFo1Kqj9SGX0rLRnomkdrbEDT3Joqt3khF6rQz%2FT319iBzPG%2BsNgYtpra%2BRvaCeWaPG7OpMs8%2BbXpgJWAj244Xcnhj0ev80D4puUsn38Twr1E5ReCZUpySVVFPD0d0Dt%2FeqxHuo0ggca%2Blnz8jmOLOzabAwDnKVCIHjmNQ6joHnmNQ%2BY6tIgGOE8hqEbeVyYETlgVj41q69AN6VptBA%3D%3D"
+    },
+    {
+      "id": 13,
+      "artist": "Blaq Diamond",
+      "title": "SummerYoMuthi",
+      "description": "A pop and afrobeat song about having fun and living in the moment",
+      "rating": 4.5,
+      "image": "https://trendybeatz.com/images/Blaq-Diamond-Summeryomuthi-Artwork.jpg",
+      "audio": "https://ocx.oxec.cx/api/v1/download?sig=ZKRKcaYDIh0JNEzHeHH%2FAomzFKxn2VVUvsFafY%2FUR%2FnNvWso1BgVFi3lJn%2Bs91%2BzAIU93osGaVTSL24uRNSWsMd8f%2BEa%2FguVjwcQsa8a%2BEHRExG0kWS0RWgjv1%2FEKMTDJMdSwNRTDqw%2FVdFKxlJtoDL0oVuss9WYPXKdNkzcmgJdmSGrC0GZsCV1iP22AG%2FckCQToViv3DlyEfqvx72oKXvnJvpvfNiGDQJMmF1FWuuNFy0FvXLLmpxxyZXTgb%2B5MTSifepk1y9etdTlin8ZkJ6ClDGr18orngGP2QPDyL4Qf%2Fu2ciqo9T68xVR7s%2FeRPWin5miU3MjuCZ8iSBxrTg%3D%3D"
+    },
+    {
+      "id": 14,
+      "artist": "Nasty C",
+      "title": "SMA (Send Me Away)",
+      "description": "SMA is a song by South African rapper Nasty C featuring Rowlene. It was released in 2019 as part of Nasty C's album titled 'Strings and Bling'.",
+      "rating": 4.5,
+      "image": "https://i0.wp.com/xclusiveloaded.com/wp-content/uploads/2019/06/Nasty-C-%E2%80%93-Send-Me-Away-SMA-ft.-Rowlene.jpg?fit=900%2C900&ssl=1",
+      "audio": "https://xxe.oxec.cx/api/v1/download?sig=Mik3jv9A3GgjuMAFDpT0iYJ6fwbrraTl29pF2IEtswTN9vQs5Xdx9twM41l6C7rlvREKNz%2BO%2Fp%2BD04uqM11dbQ4TY%2FRgqlv9YspMra6tIvsFlJZRXXIUtrXY4R63I2ffxRVqTm7XUKo%2F2tfTo0k%2BEKa6Q4GKr%2Fm8sxYnZ5Lnp3IIm3rx8SEwJlSgkxVgrrmqu3k%2BtQkwQwCMkWq%2BSUQ4FK9NxvS%2Bk49cLtUaqIb5ReV3SEkHseKwA%2FHsW%2ByMHj%2FvqUguhKe1G5t21gz1p6Mr%2Bg4WkhLUpTGhBcq8IyzWZqT57ak0HUWOlSRYPGXxHL9x%2B3Qk4cm7GEqe43C%2BAUfkfw%3D%3D"
+    }    
+  ]
+}
