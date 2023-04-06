@@ -9,7 +9,6 @@ const deleteSongButton = document.getElementById('btn2');
 const searchBar = document.getElementById('search')
 const searchButton = document.getElementById('btn3')
 const commentatorForm = document.getElementById('commentator');
-const updaterForm = document.getElementById('updater');
 
 
 function showSongDetails(song) {
@@ -52,6 +51,47 @@ function showSongDetails(song) {
     song.rating++;
     rating.textContent = `Rating: ${song.rating}`;  
 })
+/*// Get the update form and update button elements
+const updateForm = document.getElementById('updateForm');
+const updateButton = document.getElementById('update-song-btn')
+updateButton.textContent = 'Update';
+
+// Add event listener to the update button to show the update form
+updateButton.addEventListener('click', () => {
+  musicInfo.append(updateForm);
+  // Hide the update and delete buttons
+  updateButton.style.display = 'none';
+  
+});
+
+// Add the update button to the music info container
+musicInfo.appendChild(updateButton);
+// Add event listener to the update form to update the song details
+updateForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const updatedSong = {
+    title: updateForm.elements.title.value,
+    artist: updateForm.elements.artist.value,
+    description: updateForm.elements.description.value,
+    image: updateForm.elements.image.value,
+    audio: updateForm.elements.audio.value
+  };
+  const id = imageContainer.firstElementChild.dataset.id; // Get the id of the current song
+  fetch(`${url}/${id}`, {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(updatedSong)
+  })
+  .then(response => response.json())
+  .then(data => {
+    // Re-fetch the song list and re-render the song details display with the updated song
+    fetchSongs();
+   // showSongDetails(data);
+  });
+});*/
+
 
   //adding event listener to the comment section
   
