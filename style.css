@@ -1,4 +1,4 @@
-*{
+/**{
   background-color: black;
    
    
@@ -39,6 +39,7 @@ img{
 .song-list{
   float: left;
   width: 50%;
+
   
 }
 .music-info-and-image-container{
@@ -111,5 +112,10 @@ button {
   width: 100%;
   margin-bottom: -130px;
  }
+ #songs{
+  color: rgb(228, 33, 66);
+  font-size: large;
+  font-weight: bolder;
+ }*/
 
 

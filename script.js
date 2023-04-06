@@ -8,6 +8,9 @@ const addSongButton = document.getElementById('btn');
 const deleteSongButton = document.getElementById('btn2');
 const searchBar = document.getElementById('search')
 const searchButton = document.getElementById('btn3')
+const commentForm = document.getElementById('commentator');
+const commentList = document.getElementById('comment-list');
+
 function showSongDetails(song) {
   // Clear the music info and image containers
   musicInfo.innerHTML = '';
@@ -19,7 +22,10 @@ function showSongDetails(song) {
   const description = document.createElement('p');
   const rating = document.createElement('p');
   const image = document.createElement('img');
-  const commentButton = document.createElement('button');
+  
+  //creating the like button and and make it increase the rating
+  const likeButton = document.createElement('button');
+ 
   const audio = document.createElement('audio');
   // Set the text and image content for the elements
   title.textContent = song.title;
@@ -28,15 +34,9 @@ function showSongDetails(song) {
   rating.textContent = `Rating: ${song.rating}`;
   image.src = song.image;
   image.dataset.id = song.id; // Add the id to the img element
-  commentButton.textContent = 'Comment';
- 
 
-   // Add event listeners to the buttons
-   commentButton.addEventListener('click', () => {
-    // Code to handle comment button click
-    console.log('Comment button clicked');
-  });
-
+  //setting the text content of the like button
+  likeButton.textContent = 'Like';
    // Add event listener to the image element to play the song
    image.addEventListener('click', () => {
     audio.src = song.audio;
@@ -44,6 +44,14 @@ function showSongDetails(song) {
     audio.autoplay = true;
     musicInfo.appendChild(audio);
   });
+   // Add event listener to the like button to increase the song rating
+   likeButton.addEventListener('click', (e) => {
+    e.preventDefault
+    // Increase the song rating by 1
+    song.rating++;
+    rating.textContent = `Rating: ${song.rating}`;
+   
+})
   
 
 
@@ -53,7 +61,12 @@ function showSongDetails(song) {
   musicInfo.appendChild(description);
   musicInfo.appendChild(rating);
   imageContainer.appendChild(image);
-  musicInfo.appendChild(commentButton);
+ // musicInfo.appendChild(commentButton);
+  musicInfo.appendChild(likeButton);
+  //musicInfo.appendChild(likeCount);
+ 
+  
+  
   
 }
 
@@ -74,14 +87,14 @@ function deleteSong() {
         musicInfo.innerHTML = '';
         imageContainer.innerHTML = '';
       } else {
-        throw new Error('Something went wrong');
+        throw new Error('Something is wrong');
       }
     })
     
 }
 
 
-
+//adding an event listener to the deletesongButton
 deleteSongButton.addEventListener('click', () => {
   //call the function for execution
   deleteSong();
@@ -152,7 +165,7 @@ fetch(url)
     const audio = document.getElementById('audio').value;
     addSong(title, artist, description, rating, image, audio);
   });
-  //adding the search input
+  //adding the search button and functionality
   searchButton.addEventListener('click', () => {
     const bar = searchBar.value.toLowerCase();
     const songs = songList.querySelectorAll('li');
@@ -172,36 +185,4 @@ fetch(url)
       });
     });
   });
-  //adding the like button and making it responsive
-  /*const likeButtons = document.getElementById('btn4')
-  musicInfo.appendChild(likeButtons);
-  likeButtons.addEventListener('click', () => {
-    const songId = song.id;
-    const newRating = song.rating + 1;
-    fetch(`${url}/${songId}`, {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ rating: newRating })
-    })
-    .then(response => response.json())
-    .then(data => {
-      rating.textContent = `Rating: ${data.rating}`;
-      song.rating = data.rating;
-    })
-    .catch(error => console.log(error));
-  });
-  */
- 
-  
-
-
-  
-  
-  
-  
-  
-
-  
  
