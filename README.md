@@ -24,7 +24,7 @@ There is a delete button whenever the user is bored with a certain song he can s
 4. Adding Songs
 When the user wants to add a song he will have to fill the song details on the add song form and when he clicks on the add song button the song will automatically be added to the music playlist
 5. Adding likes
-When the user clicks on the like button he is able to increase the rating of the song .the more you like the song the more you rate it
+When the user clicks on the like button he is able to increase the rating of the song .the more you like the song the more you rate it.
 # CONTRIBUTOR
 NAME : WINNIE AYITSO JOMO
 GITHUB ACC: winniegithubrit@github.com

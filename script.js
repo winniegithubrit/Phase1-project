@@ -8,8 +8,9 @@ const addSongButton = document.getElementById('btn');
 const deleteSongButton = document.getElementById('btn2');
 const searchBar = document.getElementById('search')
 const searchButton = document.getElementById('btn3')
-const commentForm = document.getElementById('commentator');
-const commentList = document.getElementById('comment-list');
+const commentatorForm = document.getElementById('commentator');
+const updaterForm = document.getElementById('updater');
+
 
 function showSongDetails(song) {
   // Clear the music info and image containers
@@ -49,9 +50,13 @@ function showSongDetails(song) {
     e.preventDefault
     // Increase the song rating by 1
     song.rating++;
-    rating.textContent = `Rating: ${song.rating}`;
-   
+    rating.textContent = `Rating: ${song.rating}`;  
 })
+
+  //adding event listener to the comment section
+  
+  
+
   
 
 
@@ -61,12 +66,7 @@ function showSongDetails(song) {
   musicInfo.appendChild(description);
   musicInfo.appendChild(rating);
   imageContainer.appendChild(image);
- // musicInfo.appendChild(commentButton);
   musicInfo.appendChild(likeButton);
-  //musicInfo.appendChild(likeCount);
- 
-  
-  
   
 }
 
@@ -185,4 +185,5 @@ fetch(url)
       });
     });
   });
+ //the update functionality 
  
