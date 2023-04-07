@@ -91,7 +91,42 @@ updateButton.addEventListener('click', (e) => {
   })
 });
   //adding event listener to the comment section
-  
+  const submitButton = document.getElementById('submit');
+
+submitButton.addEventListener('click', (e) => {
+  e.preventDefault();
+
+
+  // Get the input values from the form
+  const name = document.getElementById('namee').value;
+  const comment = document.getElementById('commentt').value;
+  // Create a new comment object
+  const newComment = {
+    name: name,
+    comment: comment
+  };
+  // Send a POST request to add the new comment to the database
+  fetch(`${url}/${song.id}/comments`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(newComment)
+  })
+  .then(response => response.json())
+  .then(comment => {
+    // Display the new comment
+    const commentList = document.getElementById('comment-list');
+    const li = document.createElement('li');
+    li.textContent = `${comment.name}: ${comment.comment}`;
+    commentList.appendChild(li);
+
+    // Clear the input fields
+    document.getElementById('namee').value = '';
+    document.getElementById('commentt').value = '';
+  });
+});
+
   
 
   

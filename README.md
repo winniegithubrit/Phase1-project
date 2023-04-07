@@ -7,6 +7,8 @@ Welcome to happify music app a ,simple web application that allows users to sear
 3. One is able to delete songs from the playlist
 4. One is able to add songs of their choice to the playlist
 5. one is able to add a like to the songs individually
+6. one is able to update a song to his liking  one can update all the features of the song 
+according to their liking
 Languages used:
 1. Javascript
 2. CSS
@@ -25,6 +27,9 @@ There is a delete button whenever the user is bored with a certain song he can s
 When the user wants to add a song he will have to fill the song details on the add song form and when he clicks on the add song button the song will automatically be added to the music playlist
 5. Adding likes
 When the user clicks on the like button he is able to increase the rating of the song .the more you like the song the more you rate it.
+6. Updating the songs
+The user first has to click the song title then when the image appears the update button is right next to the like button ,
+when the user clicks on the update button he gets a prompt to enter the title,artist,description,rating,image URL,audio URL and this will make an update to the song and also to the db.json file
 # CONTRIBUTOR
 NAME : WINNIE AYITSO JOMO
 GITHUB ACC: winniegithubrit@github.com
