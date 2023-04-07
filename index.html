@@ -6,17 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>music web app</title>
+  <!--linking css and html file-->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  
 </head>
 <body>
+  <!--name of the app-->
   <h1>HAPPIFY</h1>
+  <!--the search bar-->
   <div id="search-bar">
     <label for="search" id="searching">Search-Song</label>
     <input type="search" id="search"placeholder="input the title of the song">
     <button id="btn3">Enter</button>
   </div>
-
+<!--created different containers to store different things -->
   <div class="container">
     
     <div class="music-details">
@@ -35,6 +38,7 @@
     </div>
   </div>
   <div id="add-song-container">
+    <!--this is the add song container that contains the add song form-->
     <h2>Add a Song</h2>
     <form id="add-song-form">
       <label for="title">Title:</label>
@@ -58,10 +62,11 @@
       <button id="btn">add-song</button>
     </form>
 </div>
-  
+  <!--this is simply the delete buton-->
 <button id="btn2">delete-song</button>
 </div>
 <br>
+<!--linking the js file with the html file-->
   <script src="./script.js"></script>
 </body>
 </html>
