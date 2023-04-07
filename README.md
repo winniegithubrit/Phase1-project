@@ -9,10 +9,6 @@ Welcome to happify music app a ,simple web application that allows users to sear
 5. one is able to add a like to the songs individually
 6. one is able to update a song to his liking  one can update all the features of the song 
 according to their liking
-Languages used:
-1. Javascript
-2. CSS
-3. HTML
 
 first of all i created a repository in my GitHub Account and then named it phase 1 project i then cloned it and then added the index.html file,script.js file,style.css file ,README.MD file and also the db.json file
 # ABOUT USING THE APP

@@ -25,7 +25,9 @@
       "description": "Billie Eilish's latest single 'Lost Cause' is a laid-back, catchy pop tune .",
       "rating": 8.3,
       "image": "https://i.ytimg.com/vi/vuhYSH36aSM/maxresdefault.jpg",
-      "audio": "https://xox.oxec.cx/api/v1/download?sig=hjZuBSXWTDIRZBvDW3iRW2Uaxlv7TFPkr3rkvXGqmjvBFOk%2FPYT9Mj9pdSR9l7NTDjrTej0bPeCkLie%2Bb43%2Fa%2Fn3vFgnC3v0rTnhf6mBuPYTKq4wa%2FpImRIVi0YjDZSYDkQuikt6F4zPgDBJBfa79d8iY2dBfl5OiglBytN9vvvusDKPfpMUTW%2B2Rtfx8gEJdp8iEGh4iVlZhOwgQvWKA%2BH9Inw3jJzq%2FRxv9IUen0U0ryM84PdLTF4wEEm93coqn%2F9PtJLP6FLt0M0luEiVBOJl4CsdnETrINKqoj1X6wvxsUZ4xCYBkkENBVARSVDICQm8cVuN7OPvXx%2FQvmlhYg%3D%3D"
+      "audio": "https://xox.oxec.cx/api/v1/download?sig=hjZuBSXWTDIRZBvDW3iRW2Uaxlv7TFPkr3rkvXGqmjvBFOk%2FPYT9Mj9pdSR9l7NTDjrTej0bPeCkLie%2Bb43%2Fa%2Fn3vFgnC3v0rTnhf6mBuPYTKq4wa%2FpImRIVi0YjDZSYDkQuikt6F4zPgDBJBfa79d8iY2dBfl5OiglBytN9vvvusDKPfpMUTW%2B2Rtfx8gEJdp8iEGh4iVlZhOwgQvWKA%2BH9Inw3jJzq%2FRxv9IUen0U0ryM84PdLTF4wEEm93coqn%2F9PtJLP6FLt0M0luEiVBOJl4CsdnETrINKqoj1X6wvxsUZ4xCYBkkENBVARSVDICQm8cVuN7OPvXx%2FQvmlhYg%3D%3D",
+      "comment": "",
+      "name": ""
     },
     {
       "id": 4,
@@ -52,7 +54,7 @@
       "description": "An alternative pop and rock song about a toxic relationship",
       "rating": 5.7,
       "image": "https://hollywoodlife.com/wp-content/uploads/2019/08/post-malone-circles-vertical.jpg",
-      "audio": "https://d278.d2mefast.net/tb/7/25/post_malone_circles_mp3_49712.mp3"
+      "audio": "https://cdn.mp3j.cc/SoundCloud/track?id=672849185&q=circles%20%20%20%20%20%20%20%20%20%20%20%20%20%20post%20malone&title=Post%20Malone%20-%20Circles"
     },
     {
       "id": 7,
@@ -97,7 +99,7 @@
       "description": "A pop and afrobeat song about having fun and living in the moment",
       "rating": 5.5,
       "image": "https://trendybeatz.com/images/Blaq-Diamond-Summeryomuthi-Artwork.jpg",
-      "audio": "https://ocx.oxec.cx/api/v1/download?sig=ZKRKcaYDIh0JNEzHeHH%2FAomzFKxn2VVUvsFafY%2FUR%2FnNvWso1BgVFi3lJn%2Bs91%2BzAIU93osGaVTSL24uRNSWsMd8f%2BEa%2FguVjwcQsa8a%2BEHRExG0kWS0RWgjv1%2FEKMTDJMdSwNRTDqw%2FVdFKxlJtoDL0oVuss9WYPXKdNkzcmgJdmSGrC0GZsCV1iP22AG%2FckCQToViv3DlyEfqvx72oKXvnJvpvfNiGDQJMmF1FWuuNFy0FvXLLmpxxyZXTgb%2B5MTSifepk1y9etdTlin8ZkJ6ClDGr18orngGP2QPDyL4Qf%2Fu2ciqo9T68xVR7s%2FeRPWin5miU3MjuCZ8iSBxrTg%3D%3D"
+      "audio": "https://cdn.mp3j.cc/SoundCloud/track?id=932281978&q=summeryomuthi&title=Summer%20YoMuthi"
     },
     {
       "id": 12,
@@ -108,5 +110,6 @@
       "image": "https://i0.wp.com/xclusiveloaded.com/wp-content/uploads/2019/06/Nasty-C-%E2%80%93-Send-Me-Away-SMA-ft.-Rowlene.jpg?fit=900%2C900&ssl=1",
       "audio": "https://xxe.oxec.cx/api/v1/download?sig=Mik3jv9A3GgjuMAFDpT0iYJ6fwbrraTl29pF2IEtswTN9vQs5Xdx9twM41l6C7rlvREKNz%2BO%2Fp%2BD04uqM11dbQ4TY%2FRgqlv9YspMra6tIvsFlJZRXXIUtrXY4R63I2ffxRVqTm7XUKo%2F2tfTo0k%2BEKa6Q4GKr%2Fm8sxYnZ5Lnp3IIm3rx8SEwJlSgkxVgrrmqu3k%2BtQkwQwCMkWq%2BSUQ4FK9NxvS%2Bk49cLtUaqIb5ReV3SEkHseKwA%2FHsW%2ByMHj%2FvqUguhKe1G5t21gz1p6Mr%2Bg4WkhLUpTGhBcq8IyzWZqT57ak0HUWOlSRYPGXxHL9x%2B3Qk4cm7GEqe43C%2BAUfkfw%3D%3D"
     }
+   
   ]
 }

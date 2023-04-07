@@ -8,7 +8,6 @@ const addSongButton = document.getElementById('btn');
 const deleteSongButton = document.getElementById('btn2');
 const searchBar = document.getElementById('search')
 const searchButton = document.getElementById('btn3')
-const commentatorForm = document.getElementById('commentator');
 
 
 function showSongDetails(song) {
@@ -90,48 +89,6 @@ updateButton.addEventListener('click', (e) => {
     audio.src = updatedSong.audio;
   })
 });
-  //adding event listener to the comment section
-  const submitButton = document.getElementById('submit');
-
-submitButton.addEventListener('click', (e) => {
-  e.preventDefault();
-
-
-  // Get the input values from the form
-  const name = document.getElementById('namee').value;
-  const comment = document.getElementById('commentt').value;
-  // Create a new comment object
-  const newComment = {
-    name: name,
-    comment: comment
-  };
-  // Send a POST request to add the new comment to the database
-  fetch(`${url}/${song.id}/comments`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(newComment)
-  })
-  .then(response => response.json())
-  .then(comment => {
-    // Display the new comment
-    const commentList = document.getElementById('comment-list');
-    const li = document.createElement('li');
-    li.textContent = `${comment.name}: ${comment.comment}`;
-    commentList.appendChild(li);
-
-    // Clear the input fields
-    document.getElementById('namee').value = '';
-    document.getElementById('commentt').value = '';
-  });
-});
-
-  
-
-  
-
-
   // Add the elements to the music info and image containers
   musicInfo.appendChild(title);
   musicInfo.appendChild(artist);
@@ -140,6 +97,7 @@ submitButton.addEventListener('click', (e) => {
   imageContainer.appendChild(image);
   musicInfo.appendChild(likeButton);
    musicInfo.appendChild(updateButton)
+   
 }
 
  //delete song function that will enable the user to delete a song 
