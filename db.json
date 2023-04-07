@@ -2,10 +2,10 @@
   "songs": [
     {
       "id": 1,
-      "artist": "Olivia Rodrigo",
       "title": "good 4 u",
-      "description": "The latest hit single from Olivia Rodrigo's debut album 'Sour'. This song showcases her angsty and pop-punk influences, with an infectious chorus that will have you singing along in no time.",
-      "rating": 5.5,
+      "artist": "Olivia Rodrigo",
+      "description": "A popular song by Olivia Rodrigo from her album 'SOUR'",
+      "rating": 4,
       "image": "https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a",
       "audio": "https://eeo.oxec.cx/api/v1/download?sig=f1LoZ8xfOAnBKj3VbWIN%2B%2B3phbLu4kLBoWrxuAKaREnh0ZNoOgu%2Fc8zaV42ygeM9twFQMdBTqTkWgzGdild1%2Bl2taVJACh5efTGrc5%2FnEEJ5lgtEy7TAYbWgHDnz18Ab0xXBWs%2FEkmbjGy%2BDeK5qhJ%2B95mUHHCBcEwZvTQBvwbKT%2F3fsjwqU%2Bjxm5%2BZNq3wcrE%2B5mYbUivGjdDCmUBm7%2FN8dIqjJIB0b7dL81DY%2BokJLMrco%2FSinmFvWU%2FobtzpX6LOr8QVlaFT1iNECnh6hhb8MWYKUUGKQvo9%2FbH%2BqxFp9DiAd9u9pWofNcjgKlw%2Fhbis8cEeqDMOZgn4u4Tgthw%3D%3D"
     },
@@ -29,15 +29,6 @@
     },
     {
       "id": 4,
-      "artist": "Lil Nas X",
-      "title": "Montero (Call Me By Your Name)",
-      "description": "Lil Nas X's latest single 'Montero (Call Me By Your Name)' is a catchy and bold pop-rap track that embraces his sexuality and identity.",
-      "rating": 7.7,
-      "image": "https://img.huffingtonpost.com/asset/605dc3e1240000810a25fe0b.png?ops=scalefit_630_noupscale",
-      "audio": "https://xxo.oxec.cx/api/v1/download?sig=tkiX3QqjoCLpwOyKUV48WHI1raSuXQ7PS158GGH8CMw3DpNuFcoK8FY94jkupVx%2FVjy2Cqiejh65tLVYn8TV4bzSrUC%2FOzNGADmARryzzy9X%2BRUXiaGfZx%2BJoq8W13kIVsiiFHkQWYk99xkt%2FU6%2B4qGc%2FHWzfgnGGOgro05PTx2KC7YJcWe3WNMyafBAtvRiKAmgEF1iCxnIsD10E7IYzbK478i3JV7DlHWvsTYUQMoTuDfaZhoLwmPpV56YIcG5XCPfUEEdLVd4J7nF9qYcKrqc7gVKUeedoiApaq99Ne15KutwLM5h%2BOyvpDpeH0kLDs8lSMAoVCUPqllQOeFq%2Fw%3D%3D"
-    },
-    {
-      "id": 5,
       "artist": "BTS",
       "title": "Butter",
       "description": "K-pop sensations BTS return with their latest single 'Butter', a slick and catchy dance-pop tune with a smooth and funky bassline.",
@@ -46,7 +37,7 @@
       "audio": "https://xxo.oxec.cx/api/v1/download?sig=bHLLSoXEAbcEbosj4zvqu6V7Q82VakWv9cugwB%2BKT4ZGnIgtpAv5rCVYRQqhsSeNxMr2EgNb1QkeJNcI6lyuHz3hmXt6XDuIxFLKkgVGm8GwhDGu%2Bx8Soo8IdKLBAcmvifrVw%2FFXvjECcvNLp7BXpKZrI2Xj0%2BkX9HxJ3eqONgu4%2F0QcnZQRiVsBm1aAPQeDWOrN2K%2Br7XGXZsZLgZSqoGvxi3shWd109%2FkgvCANmHg6vBGUqkDAzVfKZat6Ine1edhlwY3SugilQVp99zKb9k65xip4rnTu8STYEdhsDCFm2waTUt%2FgN2Ur5yCdIWPquPu%2F1rdkAwZPPrhF%2FoFewg%3D%3D"
     },
     {
-      "id": 6,
+      "id": 5,
       "artist": "Adele",
       "title": "Rolling in the Deep",
       "description": "A soul and blues-inspired pop song about a failed relationship",
@@ -55,7 +46,7 @@
       "audio": "https://ccc.oxec.cx/api/v1/download?sig=VL3EndpWhO5u2zLNyozQnLYLJPhXo9HIi7i0NQfaf7RH0fAOYkyz8RHdjFgb5MOg3ajkdoXJ6py1OOmmKcyoqFT63cetPLgsfiVqgvSFzaJUjWFbRMLRCOvMpjULVma9QhLr56b0tRnDrxhSbWxzFgDCxT%2Bvdy0cY3ENkSFX%2B3ykS%2FPmnUTqM6udKOXOGzrdDRquKmNdkthn56mISEfyKgTJGZdNwErzD84f1hl2lOrMecAw8ilnz%2BI4d8%2FNBC0jUlju2vP99ZQimUvFsMRSMly%2BZEFpK2M7EuL%2FMnVOrdRfCKF33gX%2BzvsmmwtwrafCf5jcXr554LjYflKvs%2B1PTA%3D%3D"
     },
     {
-      "id": 7,
+      "id": 6,
       "artist": "Post Malone",
       "title": "Circles",
       "description": "An alternative pop and rock song about a toxic relationship",
@@ -64,7 +55,7 @@
       "audio": "https://d278.d2mefast.net/tb/7/25/post_malone_circles_mp3_49712.mp3"
     },
     {
-      "id": 8,
+      "id": 7,
       "artist": "Lizzo",
       "title": "Good as Hell",
       "description": "A pop and R&B song about self-love and empowerment",
@@ -73,7 +64,7 @@
       "audio": "https://xoo.oxec.cx/api/v1/download?sig=zMYAEmOG3LZtMkNiR2Bhe5UOezzW6D6dA7okV8VIC3Sm79tBtx29udtseBud%2BE0iMAXK45aQ73B1sKjhP7NIjmR45HcyJABT2mPFpmXnKwYoPfA2KDCZ7LnJbcuFgqbr%2FTzamJ4aKJ6kAh0rQx%2FS%2FZ771h2e0RkmY2xB0fgThtem6OtRTbW3RAw2nryl9t%2BI%2Fp%2BAZ%2FEBh77EVq3rYPYTN0Rtq4YCVQ07hyM4KYygjERkNsSkUOkmXiV%2FBpmno2dJghTTVPdJv3fcXhAH67%2BTwf33M9feu12UCcMgNsd4IVmIJnmLTJRHpn9ddLPDJ1jeE2rglXgYhLBa4vf7NpBqzw%3D%3D"
     },
     {
-      "id": 9,
+      "id": 8,
       "artist": "Silk Sonic (Bruno Mars & Anderson .Paak)",
       "title": "Smoking out of the window",
       "description": "A soul and R&B ballad about seduction and romance",
@@ -82,7 +73,7 @@
       "audio": "https://xxo.oxec.cx/api/v1/download?sig=XXTQuvgppeVnu63iyYSszeuPVnYtxCNbo6rJXAY3g1y2QxKo9vmYPUnLCKerA7CKXEtskKG3bx18Eea2yK4WyGXvxB1%2F7HSLBn3drtsCerjxCjOtsXE1MtNuY5TAAmfUTYRtP34XeWIzuM7zEDeGW58zjAwqmQlY167iFwOzyDm7qc9MEgTiNiu3QiOVDcmbzZKarimycoFR7QRUP7OIbZ56rNB2U4zZlX3FNytxpud%2FbZa97%2B7gwMF1rFsVM51AB1iSUmU%2FzwwwhBvLnZv73eg%2BsCKDIXs%2BvTJIznEy40mPXTaCBG0fvc3fnCHP77jUwXCVwCVTJNn7wHXHX6amAA%3D%3D"
     },
     {
-      "id": 10,
+      "id": 9,
       "artist": "Dave",
       "title": "Clash (feat. Stormzy)",
       "description": "A rap song about the ups and downs of success",
@@ -91,7 +82,7 @@
       "audio": "https://coe.oxec.cx/api/v1/download?sig=fyMHUspUOZOcTtJMJ%2BNiUXDPQ4v7Sty%2B6DwGLPWnEO7SOGNujxO1RveFCaQhhH9wLgIiC524hAToo0xCTJgfVKGvpFxHL2pCiryKY0%2F9wOuYYZSBM8gBaOcFtQklG1SZ38tmwTbYrnNKf%2BdBYt9j925xgZfo6II8Xsl%2FE6%2F7IsL8CNQ3M%2FSv0lpPJjhGK8bqYWOg2Srdf2DuibxcCjBkiZiNFqwI2nKootNonoFyPQ4leKOWPmOdh5r%2F58zFauxn7qC0HJBq4vhxeI9WH%2FXZsUn7n9m%2BKHofvmDNLCAzCpHhdSsHG5lCnp4J3DBvdR9%2B5LQpgAh48MEl8tymaqjrSg%3D%3D"
     },
     {
-      "id": 11,
+      "id": 10,
       "artist": "Little Mix",
       "title": "Confetti (feat. Saweetie)",
       "description": "A dance-pop song about having fun and feeling confident",
@@ -100,7 +91,7 @@
       "audio": "https://cox.oxec.cx/api/v1/download?sig=NdzeNL8u95upr6vJRKbtn4HtIaQQfU8HAMSEv%2FcHOuRkHI60fOBSWF3JE5LQpqGV%2FB0gzLn4MKpmvFz84dtJdQYgX1MXwQ52UgN0lug8taMcbC2dUK%2FfZH0PPGebXUk%2BhQ8lFo1Kqj9SGX0rLRnomkdrbEDT3Joqt3khF6rQz%2FT319iBzPG%2BsNgYtpra%2BRvaCeWaPG7OpMs8%2BbXpgJWAj244Xcnhj0ev80D4puUsn38Twr1E5ReCZUpySVVFPD0d0Dt%2FeqxHuo0ggca%2Blnz8jmOLOzabAwDnKVCIHjmNQ6joHnmNQ%2BY6tIgGOE8hqEbeVyYETlgVj41q69AN6VptBA%3D%3D"
     },
     {
-      "id": 13,
+      "id": 11,
       "artist": "Blaq Diamond",
       "title": "SummerYoMuthi",
       "description": "A pop and afrobeat song about having fun and living in the moment",
@@ -109,7 +100,7 @@
       "audio": "https://ocx.oxec.cx/api/v1/download?sig=ZKRKcaYDIh0JNEzHeHH%2FAomzFKxn2VVUvsFafY%2FUR%2FnNvWso1BgVFi3lJn%2Bs91%2BzAIU93osGaVTSL24uRNSWsMd8f%2BEa%2FguVjwcQsa8a%2BEHRExG0kWS0RWgjv1%2FEKMTDJMdSwNRTDqw%2FVdFKxlJtoDL0oVuss9WYPXKdNkzcmgJdmSGrC0GZsCV1iP22AG%2FckCQToViv3DlyEfqvx72oKXvnJvpvfNiGDQJMmF1FWuuNFy0FvXLLmpxxyZXTgb%2B5MTSifepk1y9etdTlin8ZkJ6ClDGr18orngGP2QPDyL4Qf%2Fu2ciqo9T68xVR7s%2FeRPWin5miU3MjuCZ8iSBxrTg%3D%3D"
     },
     {
-      "id": 14,
+      "id": 12,
       "artist": "Nasty C",
       "title": "SMA (Send Me Away)",
       "description": "SMA is a song by South African rapper Nasty C featuring Rowlene. It was released in 2019 as part of Nasty C's album titled 'Strings and Bling'.",

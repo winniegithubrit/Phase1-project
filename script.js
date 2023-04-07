@@ -25,6 +25,8 @@ function showSongDetails(song) {
   
   //creating the like button and and make it increase the rating
   const likeButton = document.createElement('button');
+// Create the update button to update the song details
+const updateButton = document.createElement('button')
  
   const audio = document.createElement('audio');
   // Set the text and image content for the elements
@@ -51,48 +53,43 @@ function showSongDetails(song) {
     song.rating++;
     rating.textContent = `Rating: ${song.rating}`;  
 })
-/*// Get the update form and update button elements
-const updateForm = document.getElementById('updateForm');
-const updateButton = document.getElementById('update-song-btn')
-updateButton.textContent = 'Update';
-
-// Add event listener to the update button to show the update form
-updateButton.addEventListener('click', () => {
-  musicInfo.append(updateForm);
-  // Hide the update and delete buttons
-  updateButton.style.display = 'none';
-  
-});
-
-// Add the update button to the music info container
-musicInfo.appendChild(updateButton);
-// Add event listener to the update form to update the song details
-updateForm.addEventListener('submit', (e) => {
+  // Set the text content of the update button
+  updateButton.textContent = 'Update';
+// Add an event listener to the update button to update the song details
+updateButton.addEventListener('click', (e) => {
   e.preventDefault();
-  const updatedSong = {
-    title: updateForm.elements.title.value,
-    artist: updateForm.elements.artist.value,
-    description: updateForm.elements.description.value,
-    image: updateForm.elements.image.value,
-    audio: updateForm.elements.audio.value
-  };
-  const id = imageContainer.firstElementChild.dataset.id; // Get the id of the current song
-  fetch(`${url}/${id}`, {
-    method: 'PATCH',
+  const newTitle = prompt('Enter new title:', song.title);
+  const newArtist = prompt('Enter new artist:', song.artist);
+  const newDescription = prompt('Enter new description:', song.description);
+  const newImage = prompt('Enter new image URL:', song.image);
+  const newAudio = prompt('Enter new audio URL:', song.audio);
+  
+  // Update the song details using the PUT REQUEST
+  fetch(`${url}/${song.id}`, {
+    method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify(updatedSong)
+    body: JSON.stringify({
+      title: newTitle,
+      artist: newArtist,
+      description: newDescription,
+      image: newImage,
+      audio: newAudio,
+      rating: song.rating
+    })
   })
   .then(response => response.json())
-  .then(data => {
-    // Re-fetch the song list and re-render the song details display with the updated song
-    fetchSongs();
-   // showSongDetails(data);
-  });
-});*/
-
-
+  .then(updatedSong => {
+    // Show the updated song details
+    title.textContent = updatedSong.title;
+    artist.textContent = `Artist: ${updatedSong.artist}`;
+    description.textContent = `Description: ${updatedSong.description}`;
+    rating.textContent = `Rating: ${updatedSong.rating}`;
+    image.src = updatedSong.image;
+    audio.src = updatedSong.audio;
+  })
+});
   //adding event listener to the comment section
   
   
@@ -107,8 +104,10 @@ updateForm.addEventListener('submit', (e) => {
   musicInfo.appendChild(rating);
   imageContainer.appendChild(image);
   musicInfo.appendChild(likeButton);
-  
+   musicInfo.appendChild(updateButton)
 }
+
+ //delete song function that will enable the user to delete a song 
 
 function deleteSong() {
   // Get the selected song id
@@ -158,7 +157,7 @@ fetch(url)
     });
   })
   
-
+//adding song concept starts here
   function addSong(title, artist, description, rating, image,audio) {
     // Create an object with the new song data
     const newSong = {
@@ -225,5 +224,5 @@ fetch(url)
       });
     });
   });
- //the update functionality 
+ 
  
