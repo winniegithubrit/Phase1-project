@@ -107,7 +107,7 @@ submitButton.addEventListener('click', (e) => {
   };
   // Send a POST request to add the new comment to the database
   fetch(`${url}/${song.id}/comments`, {
-    method: 'PUT',
+    method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
